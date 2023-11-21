@@ -19,4 +19,10 @@ int main() {
             matriz[i][j] = 0;
         }
     }
+    
+    // Empieza la diagonal principal con 1
+    for (int i = 0; i < filas && i < columnas; i++) {
+        matriz[i][i] = 1;
+    }
+
 }
