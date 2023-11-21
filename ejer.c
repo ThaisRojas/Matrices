@@ -25,4 +25,14 @@ int main() {
         matriz[i][i] = 1;
     }
 
+    // Imprimi la matriz 
+    printf("Matriz con la diagonal principal en 1:\n");
+    for (int i = 0; i < filas; i++) {
+        for (int j = 0; j < columnas; j++) {
+            printf("%d ", matriz[i][j]);
+        }
+        printf("\n");
+    }
+
+    return 0;
 }
