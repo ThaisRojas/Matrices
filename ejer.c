@@ -12,5 +12,11 @@ int main() {
 
     // Crea la matriz con las dimensiones dadas
     int matriz[filas][columnas];
-
+  
+    // Inicia la matriz con ceros
+    for (int i = 0; i < filas; i++) {
+        for (int j = 0; j < columnas; j++) {
+            matriz[i][j] = 0;
+        }
+    }
 }
